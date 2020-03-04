@@ -1,0 +1,66 @@
+ul li {
+    display: inline-block; 
+    padding: 30px;
+}
+#logo {
+    float: left;
+}
+header {
+    margin-bottom: 40px;
+
+}
+section {
+   display: block;
+ border: 1px solid black ;
+ width: 70%;
+ float:left;
+ margin-top: 5px;
+ 
+}
+
+.selectors {
+    width: 22%;
+    height: 80%;
+    padding:5px;
+    
+}
+body{
+    padding: 44px;
+   
+}
+
+#result {
+    border: 1px solid black;
+    width: 18%;
+    float: left;
+    margin-top: 5px;
+ text-align: center;
+}
+/* div ul li { */
+  
+/* } */
+
+article{
+    float: left;
+}
+
+article h5 {
+     float: right;
+}
+#paragraph {
+    float:left;
+}
+#footer{
+    width: 100%;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////// shooping css page*/

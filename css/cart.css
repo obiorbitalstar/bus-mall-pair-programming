@@ -1,0 +1,93 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.main-header {
+    background-color: #a2c0f7;
+    height: 400px;
+}
+.inner-box {
+    padding: 65px;
+    margin: 5px;
+    width: 80%;
+    position: relative;
+    margin-left: 5%;
+    top: 5%;
+    height: 167px;
+    box-shadow: 0 12px 16px 0 rgba(113,24,245,0.24), 0 17px 50px 0 rgba(113,24,245,0.19);
+}
+.inner-content h1
+{
+    text-align: center;
+    color: #13265b;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Patua One',monospace;
+}
+.inner-content p
+{    color: #13265b;
+text-align: center;
+font-family: 'Patua One',monospace;
+font-size: 20px;
+padding-top: 5%;
+}
+main-navbar
+{
+    text-align: center;
+}
+.main-navbar ul
+{
+    text-align: center
+}
+.main-navbar ul li{
+    display: inline-block;
+}
+.main-navbar ul li a {
+    padding-right: 52px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.main-navbar ul li a:hover
+{
+    color: rgb(177, 177, 18);
+}
+.main-cart
+{
+    background-color: #f5faa2;
+}
+.deck
+{
+    margin: 25px;
+}
+.cart
+{
+    border: 1px solid #000000;
+}
+footer
+{
+    background-color: #a2c0f7;
+    text-align: center;
+    padding: 10px 0px;
+}
+.main-navbar
+{
+    padding-top: 20px;
+}
+.delete
+{
+    color: red;
+}
+.copy
+{
+    height: 65px;
+}
+.card h1
+{
+    margin: 10px;
+}
+#cart
+{
+    border: 1px solid #000000;
+    width:100%;
+}
