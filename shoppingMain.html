@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bus Mall Store</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/shopping.css">
+</head>
+
+<body>
+
+  <header class="main-header">
+    <div class="inner-box">
+      <div class="inner-content">
+        <h1>WELCOME TO BUS MALL STORE</h1>
+        <p>Please Select an item and add it to your cart</p>
+      </div>
+    </div>
+    <div class="main-navbar">
+      <nav>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cart.html">cart</a><span id="totalitems"></span></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="deck col-1">
+      <div class="card">
+        <h1>Shop Our Catalog</h1>
+        
+        <div class="copy">
+          <h2>Steps at adding your Products:</h2>
+          <ol>
+            <li class="step1">Select an item from our catalog and indicate how many you would like to purchase.</li>
+            <li class="step2">Once you've made your selection, click the "Add to Cart" button</li>
+            <li class="step3">When you are ready to purchase, click the "Cart" link above to view your cart and check out</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="deck col-2">
+      <div class="card">
+        <div class="copy">
+          <form id="catalog">
+            <fieldset>
+              <legend>Catalog</legend>
+              <label>
+                <span>Item</span>
+                <select id="items">
+                  <option>Select Item</option>
+                </select>
+              </label>
+              <label>
+                <span>Quantity</span>
+                <input id="quantity" type="number" / required>
+              </label>
+              <input type="submit" id="submit" value="Add To Cart" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <div class="card" id="cartContents">
+        <ul id="ourList"></ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy;2020 Code Fellows 201d4</p>
+  </footer>
+
+  <script src='js/app.js'></script>
+  <script src='js/catalog.js'></script>
+</body>
+
+</html>
